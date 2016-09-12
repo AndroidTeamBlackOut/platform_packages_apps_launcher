@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015 The Android Open Source Project
+     Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -52,8 +52,8 @@
             android:paddingLeft="8dp"
             android:scrollHorizontally="true"
             android:singleLine="true"
-            android:textColor="#4c4c4c"
-            android:textColorHint="#9c9c9c"
+            android:textColor="@color/search_box_input_text_color"
+            android:textColorHint="@color/search_box_input_hint_text_color"
             android:textSize="16sp" />
     </LinearLayout>
 

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2013 The Android Open Source Project
+     Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -32,7 +32,7 @@
         android:gravity="center_horizontal"
         android:text="@string/wallpaper_button_text"
         android:textAllCaps="true"
-        android:textColor="@android:color/white"
+        android:textColor="@color/wallpaper_button_text_color"
         android:textSize="12sp"
         android:focusable="true" />
 
@@ -47,7 +47,7 @@
         android:gravity="center_horizontal"
         android:text="@string/widget_button_text"
         android:textAllCaps="true"
-        android:textColor="@android:color/white"
+        android:textColor="@color/widget_button_text_color"
         android:textSize="12sp"
         android:focusable="true" />
 
@@ -62,7 +62,7 @@
         android:gravity="center_horizontal"
         android:text="@string/settings_button_text"
         android:textAllCaps="true"
-        android:textColor="@android:color/white"
+        android:textColor="@color/settings_button_text_color"
         android:textSize="12sp"
         android:focusable="true" />
 

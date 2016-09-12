@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!--
-     Copyright (C) 2015 The Android Open Source Project
+     Copyright (C) 2016 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -67,9 +67,9 @@
             android:paddingBottom="8dp"
             android:paddingTop="4dp"
             android:singleLine="true"
-            android:textColor="#ff777777"
-            android:textColorHighlight="#ffCCCCCC"
-            android:textColorHint="#ff808080"
+            android:textColor="@color/folder_name_edit_text_color"
+            android:textColorHighlight="@color/folder_name_highlight_text_color"
+            android:textColorHint="@color/folder_name_hint_text_color"
             android:textSize="14sp" />
 
         <include
